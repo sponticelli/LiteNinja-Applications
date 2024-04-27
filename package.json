@@ -8,6 +8,7 @@
   "changelogUrl": "https://github.com/sponticelli/LiteNinja-Applications/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/sponticelli/LiteNinja-Applications/blob/main/LICENSE.md",
   "dependencies": {
+    "com.liteninja.injection": "https://github.com/sponticelli/LiteNinja-Injection.git"
   },
   "keywords": [
     "Application Framework",
