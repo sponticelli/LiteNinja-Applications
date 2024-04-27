@@ -1,0 +1,17 @@
+{
+    "name": "LiteNinja.Applications",
+    "rootNamespace": "",
+    "references": [
+        "LiteNinja.Injection",
+        "LiteNinja.Commands"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
