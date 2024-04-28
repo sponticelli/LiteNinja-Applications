@@ -1,6 +1,6 @@
 {
   "name": "com.liteninja.applications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "LiteNinja Applications",
   "description": "A framework for setting up an application, including methods for binding services, injecting dependencies, and managing application settings",
   "unity": "2022.1",
@@ -8,7 +8,8 @@
   "changelogUrl": "https://github.com/sponticelli/LiteNinja-Applications/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/sponticelli/LiteNinja-Applications/blob/main/LICENSE.md",
   "dependencies": {
-    "com.liteninja.injection": "https://github.com/sponticelli/LiteNinja-Injection.git"
+    "com.liteninja.injection": "https://github.com/sponticelli/LiteNinja-Injection.git",
+    "com.liteninja.cameraservices": "https://github.com/sponticelli/LiteNinja-CameraServices.git"
   },
   "keywords": [
     "Application Framework",

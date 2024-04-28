@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "LiteNinja.Injection",
-        "LiteNinja.Commands"
+        "LiteNinja.Commands",
+        "LiteNinja.CameraServices"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

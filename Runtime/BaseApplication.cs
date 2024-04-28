@@ -1,3 +1,4 @@
+using LiteNinja.CameraService;
 using LiteNinja.Commands;
 using UnityEngine;
 
@@ -17,7 +18,7 @@ namespace LiteNinja.Applications
         
         protected ApplicationContext _context;
         protected CommandFactory _commandFactory;   
-        
+        protected ICameraRegistry _cameraRegistry;
         
         public ApplicationContext Context => _context;
         
@@ -55,6 +56,8 @@ namespace LiteNinja.Applications
             injector.Bind<IApplication>(this);
             _commandFactory = new CommandFactory(injector);
             injector.Bind(_commandFactory);
+            _cameraRegistry = new CameraRegistry();
+            injector.Bind<ICameraRegistry>(_cameraRegistry);
         }
 
 
@@ -75,4 +78,5 @@ namespace LiteNinja.Applications
         protected abstract void PostSetup();
         
     }
+    
 }
